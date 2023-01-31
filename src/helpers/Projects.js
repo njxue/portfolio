@@ -31,14 +31,10 @@ const Projects = [
   },
   {
     name: "TA-Assist",
-    description: "A brownfield team project as part of CS2103T, TA-Assist is a desktop app for Teaching Assistants (TA) to " +
-    "keep track of students’ particulars and allocate marks for attendance and assignments. It is optimized for use via a " +
-    "Command Line Interface (CLI) while having the benefits of a Graphical User Interface (GUI).",
-    techs: ["java", "git"],
-  },
-  {
-    name: "Duke",
-    description: "Todo list",
+    description:
+      "A brownfield team project as part of CS2103T, TA-Assist is a desktop app for Teaching Assistants (TA) to " +
+      "keep track of students’ particulars and allocate marks for attendance and assignments. It is optimized for use via a " +
+      "Command Line Interface (CLI) while having the benefits of a Graphical User Interface (GUI).",
     techs: ["java", "git"],
   },
 ];

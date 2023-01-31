@@ -2,8 +2,8 @@
   <header class="p-5 bg-teal-900">
     <h1 class="text-4xl text-white">Jing Xue</h1>
     <div class="btns">
-      <Button text="Click here!" bgColor="lightgreen" />
-      <Button text="Click here too!" bgColor="lightblue" />
+      <Button text="Projects" bgColor="lightgreen" />
+      <Button text="Education" bgColor="lightblue" />
     </div>
   </header>
 </template>

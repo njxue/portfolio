@@ -5,7 +5,7 @@
     </div>
     <hr />
     <div class="mt-5 flex justify-center">
-      <img class="w-[85%]" :src="`src/assets/${proj.name}.PNG`" />
+      <img class="max-h-[500px]" :src="`src/assets/${proj.name}.PNG`" />
     </div>
     <div class="my-10 text-xl">{{ proj.description }}</div>
     <TechIcons :techs="proj.techs" />

@@ -1,5 +1,5 @@
 <template>
-  <button :style="{ background: bgColor }">{{ text }}</button>
+  <a :href="`#${text}`" :style="{ background: bgColor }">{{ text }}</a>
 </template>
 
 <script>
