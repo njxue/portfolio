@@ -1,10 +1,12 @@
-<script setup></script>
-
 <template>
   <Header title="MOFO" />
-  <Introduction />
-  <Projects />
-  <Education />
+  <div class="wrapper">
+    <div class="main">
+      <Introduction />
+      <Projects />
+      <Education />
+    </div>
+  </div>
 </template>
 
 <script>
@@ -23,3 +25,13 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+.main {
+  width: 1300px;
+}
+</style>

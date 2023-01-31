@@ -1,37 +1,25 @@
 <template>
-  <div class="box">
-    <div class="header">
-      <h1>{{ proj.name }}</h1>
+  <div class="p-10 m-10 border-gray shadow-md border">
+    <div class="py-5">
+      <h1 class="text-5xl">{{ proj.name }}</h1>
     </div>
-    <div class="image">
-      <img src="" />
+    <hr />
+    <div class="mt-5 flex justify-center">
+      <img class="w-[85%]" :src="`src/assets/${proj.name}.PNG`" />
     </div>
-    <div class="description">{{ proj.description }}</div>
-    <div class="technologies">foo bar</div>
+    <div class="my-10 text-xl">{{ proj.description }}</div>
+    <TechIcons :techs="proj.techs" />
   </div>
 </template>
 
 <script>
+import TechIcons from "./TechIcons.vue";
+
 export default {
   name: "Project",
   props: ["proj"],
+  components: { TechIcons },
 };
 </script>
 
-<style scoped>
-.box {
-  border: solid 1px;
-  width: 75%;
-}
-
-.image {
-  height: 500px;
-  display: flex;
-  justify-content: center;
-}
-
-img {
-  border: solid 1px gray;
-  width: 85%;
-}
-</style>
+<style scoped></style>

@@ -1,9 +1,10 @@
 <template>
-  <div class="container">
-    <div class="header">
+  <div class="">
+    <div class="mb-5 text-4xl font-semibold">
       <h1>Projects</h1>
     </div>
-    <div class="projects" v-for="proj in Projects">
+    <hr />
+    <div class="mt-10" v-for="proj in Projects">
       <Project :proj="proj" />
     </div>
   </div>
@@ -23,15 +24,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-.container {
-  border: solid 1px;
-}
-
-.projects {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-</style>

@@ -1,10 +1,13 @@
 <template>
-  <div class="container">
-    <h1>Hello! I'm Jing Xue,</h1>
-    <div class="intro">
-      <h3>
-        Year 2 Computer Science student in the National University of Singapore
-      </h3>
+  <div class="p-5 m-10 border-gray shadow-md border">
+    <div class="flex justify-between">
+      <div>
+        <p class="text-5xl font-semibold font-mono">Hello! I'm Jing Xue!</p>
+        <p class="text-2xl mt-10">
+          I am currently a Year 2 Computer Science student pursuing my passion
+          for Computer Science in the National University of Singapore.
+        </p>
+      </div>
       <img src="../assets/doge.webp" />
     </div>
   </div>
@@ -17,19 +20,8 @@ export default {
 </script>
 
 <style scoped>
-.container {
-  border: solid 1px;
-  height: 500px;
-}
-
 img {
-  border: solid 1px;
   height: 250px;
   width: 250px;
-}
-
-.intro {
-  display: flex;
-  justify-content: space-between;
 }
 </style>
