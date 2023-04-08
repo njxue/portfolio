@@ -11,7 +11,6 @@
       <div class="mt-10">
         <Education />
       </div>
-      <i class="bi bi-0-circle-fill"></i>
     </div>
   </div>
 
