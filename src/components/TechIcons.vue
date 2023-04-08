@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-row space-x-5">
-    <img v-for="tech in techs" width="30" :src="getImgUrl(tech)" />
+  <div class="flex flex-row gap-2 items-start flex-wrap">
+    <img v-for="tech in techs" class="w-7" :src="getImgUrl(tech)" />
   </div>
 </template>
 

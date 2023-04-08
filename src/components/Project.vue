@@ -1,5 +1,5 @@
 <template>
-  <div class="p-10 m-10 border-gray shadow-md border">
+  <div class="p-5 border-gray shadow-md border">
     <div class="py-5">
       <h1 class="text-3xl">{{ proj.name }}</h1>
     </div>
@@ -9,7 +9,7 @@
     </div>
     <div class="my-10 text-lg">{{ proj.about.motivation }}</div>
     <div class="my-10 text-lg">{{ proj.about.description }}</div>
-    <div class="flex w-full justify-between">
+    <div class="flex w-full justify-between flex-wrap gap-3">
       <TechIcons :techs="proj.techs" />
       <ProjectLinks
         :githubLink="proj.githubLink"

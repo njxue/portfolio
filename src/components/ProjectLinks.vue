@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-row space-x-5">
-    <a v-if="productLink" :href="productLink" class="w-8">
+  <div class="flex flex-row gap-2">
+    <a v-if="productLink" :href="productLink" class="w-7">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"

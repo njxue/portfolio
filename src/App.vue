@@ -4,9 +4,13 @@
     <Introduction />
   </div>
   <div class="wrapper">
-    <div class="main">
-      <Projects />
-      <Education />
+    <div class="w-[1200px] p-10">
+      <div>
+        <Projects />
+      </div>
+      <div class="mt-10">
+        <Education />
+      </div>
       <i class="bi bi-0-circle-fill"></i>
     </div>
   </div>
@@ -64,8 +68,5 @@ export default {
 .wrapper {
   display: flex;
   justify-content: center;
-}
-.main {
-  width: 1200px;
 }
 </style>
