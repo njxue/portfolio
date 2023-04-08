@@ -4,7 +4,7 @@ export default {
   large:
     "<p>A <b>Year 2 Computer Science</b> undergraduate from the <b>National University of Singapore</b></p>",
   small:
-    "<p>I'm an aspiring software developing who loves coding, coffee and corgis!</p>",
+    "<p>I'm an aspiring software developer who loves coding, coffee and corgis!</p>",
   socials: {
     linkedin: "https://linkedin.com/in/njxue",
     github: "https://github.com/njxue",
