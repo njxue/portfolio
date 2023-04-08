@@ -12,7 +12,7 @@ export default {
   props: ["socials"],
   methods: {
     getImgUrl: function (platform) {
-      return `/public/icons/${platform}.svg`;
+      return `/icons/${platform}.svg`;
     },
   },
 };

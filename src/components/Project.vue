@@ -5,7 +5,7 @@
     </div>
     <hr />
     <div class="mt-5 flex justify-center">
-      <img class="max-h-[500px]" :src="`public/images/${proj.img}`" />
+      <img class="max-h-[500px]" :src="`/images/${proj.img}`" />
     </div>
     <div class="my-10 text-lg">{{ proj.about.motivation }}</div>
     <div class="my-10 text-lg">{{ proj.about.description }}</div>

@@ -10,7 +10,7 @@ export default {
   props: ["techs"],
   methods: {
     getImgUrl: function (tech) {
-      return `/public/icons/${tech}.svg`;
+      return `/icons/${tech}.svg`;
     },
   },
 };
