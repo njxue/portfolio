@@ -1,7 +1,7 @@
 const Projects = [
   {
     name: "Odo.t",
-    img: "odot.PNG",
+    img: "odot.png",
     about: {
       motivation: "",
       motivation:
@@ -30,7 +30,7 @@ const Projects = [
   },
   {
     name: "Frenergy",
-    img: "frenergy.PNG",
+    img: "frenergy.png",
     about: {
       motivation: "",
       description:
@@ -51,7 +51,7 @@ const Projects = [
   },
   {
     name: "TA-Assist",
-    img: "ta-assist.PNG",
+    img: "ta-assist.png",
     about: {
       motivation: "",
       description:
