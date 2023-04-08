@@ -31,7 +31,7 @@
           >
         </div>
       </div>
-      <img src="../assets/me.jpeg" class="object-cover rounded-full" />
+      <img src="/images/me.jpeg" class="object-cover rounded-full" />
     </div>
   </div>
 </template>

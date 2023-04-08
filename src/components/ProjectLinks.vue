@@ -17,7 +17,7 @@
       </svg>
     </a>
     <a :href="githubLink" class="w-8"
-      ><img src="../assets/icons/github.svg" width="40"
+      ><img src="/public/icons/github.svg" width="40"
     /></a>
   </div>
 </template>
