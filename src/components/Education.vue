@@ -2,6 +2,7 @@
   <div id="Education" class="mb-5 text-4xl font-semibold">
     <h1>Education</h1>
   </div>
+  <hr />
   <table class="w-full text-center table-auto">
     <thead>
       <tr>
