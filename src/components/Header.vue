@@ -1,6 +1,6 @@
 <template>
   <header class="p-5 border-b-2 border-teal-900 e z-50">
-    <h1 class="text-4xl">Jing Xue</h1>
+    <h1 class="text-xl">Jing Xue</h1>
     <div class="flex space-x-4 bg-whit">
       <Button text="Projects" />
       <Button text="Education" />
