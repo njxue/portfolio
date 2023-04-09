@@ -1,5 +1,5 @@
 <template>
-  <div class="py-[50px] mb-10 border-solid bg-slate-100">
+  <div class="py-[50px] mb-10 border-solid bg-slate-100 font-mono">
     <div
       class="px-10 max-w-[1000px] m-auto flex justify-center flex-wrap-reverse gap-7 items-center "
     >

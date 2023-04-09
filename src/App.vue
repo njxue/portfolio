@@ -3,8 +3,8 @@
   <div class="mt-[70px]">
     <Introduction />
   </div>
-  <div class="wrapper">
-    <div class="w-[1200px] p-10">
+  <div class="flex justify-center">
+    <div class="w-[1200px]">
       <div>
         <Projects />
       </div>
@@ -62,10 +62,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-.wrapper {
-  display: flex;
-  justify-content: center;
-}
-</style>
