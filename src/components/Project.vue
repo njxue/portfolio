@@ -4,17 +4,24 @@
       <h1 class="text-3xl">{{ proj.name }}</h1>
     </div>
     <hr />
-    <div class="mt-5 flex justify-center">
-      <img class="max-h-[500px]" :src="`/images/${proj.img}`" />
-    </div>
-    <div class="my-10 text-lg">{{ proj.about.motivation }}</div>
-    <div class="my-10 text-lg">{{ proj.about.description }}</div>
-    <div class="flex w-full justify-between flex-wrap gap-3">
-      <TechIcons :techs="proj.techs" />
-      <ProjectLinks
-        :githubLink="proj.githubLink"
-        :productLink="proj.productLink"
-      />
+    <div class="flex flex-wrap-reverse items-center justify-center gap-5">
+      <div class="relative basis-1/2 grow self-stretch">
+        <div class="my-3">
+          <div class="text-base">{{ proj.about.motivation }}</div>
+          <div class="my-5 text-base">{{ proj.about.description }}</div>
+        </div>
+        <div class="h-[30px]"><span></span></div>
+        <div
+          class="flex w-full justify-between flex-wrap gap-3 absolute bottom-0"
+        >
+          <TechIcons :techs="proj.techs" />
+          <ProjectLinks
+            :githubLink="proj.githubLink"
+            :productLink="proj.productLink"
+          />
+        </div>
+      </div>
+      <img class="w-[400px] grow" :src="`/images/${proj.img}`" />
     </div>
   </div>
 </template>
