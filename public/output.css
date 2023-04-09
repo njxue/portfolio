@@ -537,6 +537,14 @@ video {
   bottom: 0px;
 }
 
+.right-0 {
+  right: 0px;
+}
+
+.left-0 {
+  left: 0px;
+}
+
 .z-50 {
   z-index: 50;
 }
@@ -636,6 +644,26 @@ video {
 
 .h-\[30px\] {
   height: 30px;
+}
+
+.h-\[320px\] {
+  height: 320px;
+}
+
+.h-\[0px\] {
+  height: 0px;
+}
+
+.h-\[300px\] {
+  height: 300px;
+}
+
+.h-\[1000px\] {
+  height: 1000px;
+}
+
+.min-h-\[30px\] {
+  min-height: 30px;
 }
 
 .w-\[1200px\] {

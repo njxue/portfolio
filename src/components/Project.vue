@@ -10,7 +10,7 @@
           <div class="text-base">{{ proj.about.motivation }}</div>
           <div class="my-5 text-base">{{ proj.about.description }}</div>
         </div>
-        <div class="h-[30px]"><span></span></div>
+        <div class="h-[100px]"></div>
         <div
           class="flex w-full justify-between flex-wrap gap-3 absolute bottom-0"
         >
