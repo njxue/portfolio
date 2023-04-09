@@ -1,6 +1,8 @@
 <template>
-  <div class="px-20 py-[50px] mb-10 border-solid w-full bg-slate-100">
-    <div class="flex justify-between flex-wrap-reverse gap-7 items-center">
+  <div class="py-[50px] mb-10 border-solid bg-slate-100">
+    <div
+      class="px-10 max-w-[1000px] m-auto flex justify-center flex-wrap-reverse gap-7 items-center "
+    >
       <div class="basis-1/2 grow">
         <div>
           <div class="text-4xl font-bold" id="greeting"></div>
