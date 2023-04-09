@@ -16,13 +16,13 @@ const modules = [
         code: "CS2030S",
         title: "Programming Methodology II",
         notes:
-          "https://github.com/njxue/CS2030S/blob/master/CS2030S%20Finals%20CheatSheet.pdf",
+          "https://github.com/njxue/Notes/blob/main/CS2030S_Cheatsheet.pdf",
       },
       {
         code: "CS2040S",
         title: "Data Structures and Algorithms",
         notes:
-          "https://github.com/njxue/CS2040S/blob/main/CS2040S%20cheatsheet.pdf",
+          "https://github.com/njxue/Notes/blob/main/CS2040S_Cheatsheet.pdf",
       },
       { code: "PC1201", title: "Fundamentals of Physics" },
       { code: "GEA1000", title: "Quantitative Reasoning with Data" },
@@ -58,7 +58,7 @@ const modules = [
       {
         code: "ST2334",
         title: "Probability and Statistics",
-        notes: "https://www.notion.so/ST2334-8defb1a13dcb4e80b4aac9473e18a9c9",
+        notes: "https://github.com/njxue/Notes/blob/main/ST2334_Cheatsheet.pdf",
       },
       {
         code: "GEX1007",
@@ -73,18 +73,18 @@ const modules = [
       {
         code: "CS2102",
         title: "Database Systems",
-        notes: "https://github.com/njxue/CS2102/blob/master/Cheatsheet.pdf",
+        notes: "https://github.com/njxue/Notes/blob/main/CS2102_Cheatsheet.pdf",
       },
       {
         code: "CS2105",
         title: "Introduction to Computer Networks",
-        notes: "https://github.com/njxue/CS2105/blob/master/Cheatsheet.pdf",
+        notes: "https://github.com/njxue/Notes/blob/main/CS2105_Cheatsheet.pdf",
       },
       {
         code: "CS2106",
         title: "Introduction to Operating Systems",
         notes:
-          "https://github.com/njxue/CS2106/blob/master/Cheatsheet_Final.pdf",
+          "https://github.com/njxue/Notes/blob/main/CS2106_Cheatsheet.pdf",
       },
       { code: "GESS1025", title: "Singapore: Imagining the Next 50 Years" },
       { code: "CFG1002", title: "Career Catalyst" },
