@@ -34,9 +34,9 @@
 
 <script>
 import Header from "./components/Header.vue";
-import Projects from "./components/Projects.vue";
-import Introduction from "./components/Introduction.vue";
-import Education from "./components/Coursework.vue";
+import Projects from "./components/projects/Projects.vue";
+import Introduction from "./components/introduction/Introduction.vue";
+import Education from "./components/coursework/Coursework.vue";
 
 export default {
   name: "App",

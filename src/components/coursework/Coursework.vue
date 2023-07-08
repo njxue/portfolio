@@ -47,7 +47,7 @@
 </template>
 
 <script>
-import MyModules from "../data/MyModules";
+import MyModules from "/src/data/MyModules";
 export default {
   name: "Education",
   data() {

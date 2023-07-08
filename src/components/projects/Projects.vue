@@ -10,7 +10,7 @@
 
 <script>
 import Project from "./Project.vue";
-import Projects from "../data/Projects";
+import Projects from "/src/data/Projects";
 
 export default {
   name: "Projects",
