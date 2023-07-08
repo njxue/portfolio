@@ -53,7 +53,7 @@ const Projects = [
     ],
     githubLink: "https://github.com/njxue/frenergy",
     productLink: "https://frenergy.vercel.app",
-    logo: "frenergyLogo.png"
+    logo: "frenergylogo.png"
   },
   {
     name: "TA-Assist",

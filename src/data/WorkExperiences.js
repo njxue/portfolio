@@ -15,7 +15,7 @@ const WorkExperiences = [
       "Contributed to the seamless operations of the company's accounting department, directly impacting financial transactions involving significant monetary values.",
     ],
     techs: ["react", "csharp", "php", "javascript", "mysql", "oracle"],
-    logo: "/public/images/kpnLogo.png",
+    logo: "/images/kpnLogo.png",
   },
 ];
 export default WorkExperiences;
