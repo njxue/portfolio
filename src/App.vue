@@ -1,16 +1,13 @@
 <template>
-  <Header title="MOFO" />
+  <Header />
   <div class="mt-[70px]">
     <Introduction />
   </div>
   <div class="flex justify-center">
-    <div class="w-[1200px]">
-      <div>
-        <Projects />
-      </div>
-      <div class="mt-10">
-        <Education />
-      </div>
+    <div class="w-[1200px] space-y-7">
+      <WorkExperiences />
+      <Projects />
+      <Education />
     </div>
   </div>
 
@@ -37,10 +34,12 @@ import Header from "./components/Header.vue";
 import Projects from "./components/projects/Projects.vue";
 import Introduction from "./components/introduction/Introduction.vue";
 import Education from "./components/coursework/Coursework.vue";
+import WorkExperiences from "./components/work/WorkExperiences.vue";
 
 export default {
   name: "App",
   components: {
+    WorkExperiences,
     Header,
     Introduction,
     Projects,

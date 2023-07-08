@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import TechIcons from "./TechIcons.vue";
+import TechIcons from "../TechIcons.vue";
 import ProjectLinks from "./ProjectLinks.vue";
 
 export default {
