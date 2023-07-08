@@ -29,6 +29,7 @@ const Projects = [
     ],
     githubLink: "https://github.com/njxue/odot",
     productLink: "https://odot.vercel.app",
+    logo: "odotLogo.png",
   },
   {
     name: "Frenergy",
@@ -52,6 +53,7 @@ const Projects = [
     ],
     githubLink: "https://github.com/njxue/frenergy",
     productLink: "https://frenergy.vercel.app",
+    logo: "frenergyLogo.png"
   },
   {
     name: "TA-Assist",
@@ -67,6 +69,7 @@ const Projects = [
     },
     techs: ["java", "git"],
     githubLink: "https://github.com/AY2223S1-CS2103T-T12-1/tp",
+    logo: "taassistLogo.png",
   },
 ];
 
