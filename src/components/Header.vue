@@ -1,9 +1,10 @@
 <template>
   <header class="p-5 border-b-2 border-teal-900 e z-50">
     <h1 class="text-xl">Jing Xue</h1>
-    <div class="flex space-x-4 bg-whit">
+    <div class="flex space-x-4 bg-white">
+      <Button text="Work Experience" />
       <Button text="Projects" />
-      <Button text="Education" />
+      <Button text="Coursework" />
     </div>
   </header>
 </template>
@@ -12,7 +13,6 @@
 import Button from "./Button.vue";
 export default {
   name: "Header",
-
   components: {
     Button,
   },

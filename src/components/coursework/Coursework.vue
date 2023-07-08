@@ -1,5 +1,5 @@
 <template>
-  <div id="Education" class="mb-5 text-4xl text-center font-mono">
+  <div id="Coursework" class="mb-5 text-4xl text-center font-mono">
     <h1>Coursework</h1>
   </div>
   <hr />

@@ -1,5 +1,5 @@
 <template>
-  <div id="Projects" class="p-2 mb-5 text-4xl text-center font-mono">
+  <div id="Work Experience" class="p-2 mb-5 text-4xl text-center font-mono">
     <h1>Work Experience</h1>
   </div>
   <hr />
