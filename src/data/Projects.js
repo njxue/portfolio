@@ -2,6 +2,8 @@ const Projects = [
   {
     name: "Odo.t",
     img: "odot.png",
+    start: "August 2022",
+    end: "March 2023",
     about: {
       motivation: "",
       motivation:
@@ -31,6 +33,8 @@ const Projects = [
   {
     name: "Frenergy",
     img: "frenergy.png",
+    start: "May 2022",
+    end: "August 2022",
     about: {
       motivation: "",
       description:
@@ -52,6 +56,8 @@ const Projects = [
   {
     name: "TA-Assist",
     img: "ta-assist.png",
+    start: "September 2022",
+    end: "November 2022",
     about: {
       motivation: "",
       description:
