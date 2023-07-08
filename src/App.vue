@@ -36,7 +36,7 @@
 import Header from "./components/Header.vue";
 import Projects from "./components/Projects.vue";
 import Introduction from "./components/Introduction.vue";
-import Education from "./components/Education.vue";
+import Education from "./components/Coursework.vue";
 
 export default {
   name: "App",

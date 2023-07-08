@@ -1,14 +1,14 @@
 <template>
   <div id="Education" class="mb-5 text-4xl text-center font-mono">
-    <h1>Education</h1>
+    <h1>Coursework</h1>
   </div>
   <hr />
   <table class="w-full text-center table-auto">
     <thead>
       <tr>
-        <th>Module Code</th>
-        <th>Module Title</th>
-        <th>Module Notes</th>
+        <th>Course Code</th>
+        <th>Course Title</th>
+        <th>Course Notes</th>
       </tr>
     </thead>
     <tbody v-for="term in MyModules">
@@ -47,7 +47,7 @@
 </template>
 
 <script>
-import MyModules from "../helpers/MyModules";
+import MyModules from "../data/MyModules";
 export default {
   name: "Education",
   data() {

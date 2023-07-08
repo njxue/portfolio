@@ -39,7 +39,7 @@
 </template>
 
 <script>
-import Myself from "../helpers/Myself";
+import Myself from "../data/Myself";
 import SocialsIcons from "./SocialsIcons.vue";
 
 export default {
