@@ -9,7 +9,7 @@ const WorkExperiences = [
       "specialised in procurement and distribution of cement products, fertilizer, oils & fats, consumer products, " +
       "oleochemicals and green energy.",
     deliverables: [
-      "Improved the frontend system to streamline business procedures, including enhancing the generation of accounting reports",
+      "Improved frontend systems to streamline business procedures, including the generation of accounting reports.",
       "Implemented robust backend solutions to automate critical business procedures, enhancing operational efficiency.",
       "Successfully resolved software issues through thorough bug fixing and troubleshooting.",
       "Contributed to the seamless operations of the company's accounting department, directly impacting financial transactions involving significant monetary values.",

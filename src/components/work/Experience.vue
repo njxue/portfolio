@@ -4,7 +4,7 @@
       <img class="w-20" :src="experience.logo" />
       <div>
         <span>{{ experience.role }} @ </span>
-        <span class="text-blue-900"> {{ experience.name }}</span>
+        <span class="text-blue-900 whitespace-nowrap"> {{ experience.name }}</span>
         <p class="text-lg">
           {{ experience.startDate }} - {{ experience.endDate }}
         </p>
