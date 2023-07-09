@@ -3,6 +3,7 @@
   <div class="mt-[70px]">
     <Introduction />
   </div>
+
   <div class="flex justify-center">
     <div class="w-[1200px] space-y-7">
       <WorkExperiences />

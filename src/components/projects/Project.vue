@@ -5,7 +5,7 @@
       <h1 class="text-3xl">{{ proj.name }}</h1>
     </div>
     <hr />
-    <div class="flex flex-wrap-reverse items-center justify-center gap-5">
+    <div class="p-2 flex flex-wrap-reverse items-center justify-center gap-5">
       <div class="relative basis-1/2 grow self-stretch">
         <div class="my-3">
           <div class="text-base">{{ proj.about.motivation }}</div>
@@ -22,7 +22,7 @@
           />
         </div>
       </div>
-      <img class="w-[400px] grow" :src="`/images/${proj.img}`" />
+      <Carousel :images="proj.images" />
     </div>
   </div>
 </template>
@@ -30,11 +30,12 @@
 <script>
 import TechIcons from "../TechIcons.vue";
 import ProjectLinks from "./ProjectLinks.vue";
+import Carousel from "../Carousel.vue";
 
 export default {
   name: "Project",
   props: ["proj"],
-  components: { TechIcons, ProjectLinks },
+  components: { TechIcons, ProjectLinks, Carousel },
 };
 </script>
 

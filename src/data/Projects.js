@@ -1,7 +1,12 @@
 const Projects = [
   {
     name: "Odo.t",
-    img: "odot.png",
+    images: [
+      "/images/odotDark.png",
+      "/images/odotLight.png",
+      "/images/odotAll.png",
+      "/images/odotModal.png",
+    ],
     start: "August 2022",
     end: "March 2023",
     about: {
@@ -33,7 +38,7 @@ const Projects = [
   },
   {
     name: "Frenergy",
-    img: "frenergy.png",
+    images: ["/images/frenergy.png"],
     start: "May 2022",
     end: "August 2022",
     about: {
@@ -53,11 +58,11 @@ const Projects = [
     ],
     githubLink: "https://github.com/njxue/frenergy",
     productLink: "https://frenergy.vercel.app",
-    logo: "frenergylogo.png"
+    logo: "frenergylogo.png",
   },
   {
     name: "TA-Assist",
-    img: "ta-assist.png",
+    images: ["/images/ta-assist.png"],
     start: "September 2022",
     end: "November 2022",
     about: {
