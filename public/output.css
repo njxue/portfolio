@@ -751,15 +751,6 @@ video {
   align-self: stretch;
 }
 
-.whitespace-nowrap {
-  white-space: nowrap;
-}
-
-.break-normal {
-  overflow-wrap: normal;
-  word-break: normal;
-}
-
 .rounded-full {
   border-radius: 9999px;
 }
