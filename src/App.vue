@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (entry.target.classList.contains("sectionHeader")) {
           entry.target.classList.add("fadeInAndSlideRightAnimation");
         } else {
-          entry.target.classList.add("fadeInAndSlideUpAnimation");
+          entry.target.classList.add("fadeInAndSlideLeftAnimation");
         }
       }
     });
@@ -124,7 +124,7 @@ export default {
 @keyframes fadeInAndSlideLeft {
   0% {
     opacity: 0;
-    transform: translateX(+20%);
+    transform: translateX(+7%);
   }
   100% {
     opacity: 1;

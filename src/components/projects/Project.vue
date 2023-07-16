@@ -37,4 +37,3 @@ export default {
   components: { TechIcons, ProjectLinks },
 };
 </script>
- 
