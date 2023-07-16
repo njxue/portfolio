@@ -1,5 +1,5 @@
 <template>
-  <div class="p-5 border-gray shadow-md border">
+  <div class="project p-5 border-gray shadow-md border">
     <div class="py-5 flex justify-start gap-5 items-center">
       <img v-if="proj.logo" class="w-12" :src="`/icons/${proj.logo}`" />
       <h1 class="text-3xl">{{ proj.name }}</h1>
@@ -37,5 +37,4 @@ export default {
   components: { TechIcons, ProjectLinks },
 };
 </script>
-
-<style scoped></style>
+ 

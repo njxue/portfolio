@@ -3,7 +3,7 @@
   <div class="mt-[70px]">
     <Introduction />
   </div>
-  <div class="flex justify-center">
+  <div class="content flex justify-center">
     <div class="w-[1200px] space-y-7">
       <WorkExperiences />
       <Projects />
@@ -36,6 +36,30 @@ import Introduction from "./components/introduction/Introduction.vue";
 import Education from "./components/coursework/Coursework.vue";
 import WorkExperiences from "./components/work/WorkExperiences.vue";
 
+document.addEventListener("DOMContentLoaded", function () {
+  const observerCallback = function (entries, observer) {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        if (entry.target.classList.contains("sectionHeader")) {
+          entry.target.classList.add("fadeInAndSlideRightAnimation");
+        } else {
+          entry.target.classList.add("fadeInAndSlideUpAnimation");
+        }
+      }
+    });
+  };
+
+  const observer = new IntersectionObserver(observerCallback);
+
+  document
+    .querySelectorAll(".project, .experience, .sectionHeader")
+    .forEach((elem) => {
+      if (elem) {
+        observer.observe(elem);
+      }
+    });
+});
+
 export default {
   name: "App",
   components: {
@@ -61,3 +85,59 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+@keyframes fadeInAndSlideRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-20%);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+</style>
+
+<style>
+.fadeInAndSlideUpAnimation {
+  animation: 0.7s ease-out 0s 1 fadeInAndSlideUp;
+}
+
+.fadeInAndSlideLeftAnimation {
+  animation: 0.7s ease-out 0s 1 fadeInAndSlideLeft;
+}
+
+.fadeInAndSlideRightAnimation {
+  animation: 0.7s ease-out 0s 1 fadeInAndSlideRight;
+}
+
+@keyframes fadeInAndSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(+5%);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInAndSlideLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(+20%);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInAndSlideRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-7%);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+</style>

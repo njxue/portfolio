@@ -1,10 +1,12 @@
 <template>
-  <div id="Work Experience" class="p-2 mb-5 text-4xl text-center font-mono">
-    <h1>Work Experience</h1>
-  </div>
-  <hr />
-  <div class="p-2 mt-10" v-for="exp in WorkExperiences">
-    <Experience :experience="exp" />
+  <div id="Work Experience">
+    <div class="sectionHeader p-2 mb-5 text-4xl text-center font-mono">
+      <h1>Work Experience</h1>
+    </div>
+    <hr />
+    <div class="p-2 mt-10" v-for="exp in WorkExperiences">
+      <Experience :experience="exp" />
+    </div>
   </div>
 </template>
 

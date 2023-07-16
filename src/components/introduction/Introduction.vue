@@ -1,9 +1,9 @@
 <template>
   <div class="py-[50px] mb-10 border-solid bg-slate-100 font-mono">
     <div
-      class="px-10 max-w-[1000px] m-auto flex justify-center flex-wrap-reverse gap-7 items-center "
+      class="px-10 max-w-[1000px] m-auto flex justify-center flex-wrap-reverse gap-7 items-center"
     >
-      <div class="basis-1/2 grow">
+      <div class="introText basis-1/2 grow">
         <div>
           <div class="text-4xl font-bold" id="greeting"></div>
           <div class="text-2xl mt-3" id="large"></div>
@@ -58,8 +58,21 @@ window.onload = () => {
 </script>
 
 <style scoped>
+.fadeInAndSlideRightAnimation {
+  animation: 1s ease-out 0s 1 fadeInAndSlideRight;
+}
+.fadeInAndSlideLeftAnimation {
+  animation: 1s ease-out 0s 1 fadeInAndSlideLeft;
+}
+
+.introText {
+  animation: 1s ease-out 0s 1 fadeInAndSlideRight;
+}
+
 img {
   height: 250px;
   width: 250px;
+  animation: 1s ease-out 0s 1 fadeInAndSlideLeft !important;
 }
+
 </style>
