@@ -45,6 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
         } else {
           entry.target.classList.add("fadeInAndSlideLeftAnimation");
         }
+        entry.target.classList.remove("invisible");
       }
     });
   };

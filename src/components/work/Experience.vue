@@ -1,5 +1,5 @@
 <template>
-  <div class="experience p-5 border-gray shadow-md border">
+  <div class="experience p-5 border-gray shadow-md border invisible">
     <div class="py-5 text-2xl flex justify-start items-center gap-3">
       <img class="w-20" :src="experience.logo" />
       <div>

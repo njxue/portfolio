@@ -1,7 +1,7 @@
 <template>
   <div
     id="Coursework"
-    class="sectionHeader mb-5 text-4xl text-center font-mono"
+    class="sectionHeader mb-5 text-4xl text-center font-mono invisible"
   >
     <h1>Coursework</h1>
   </div>

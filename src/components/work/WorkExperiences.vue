@@ -1,6 +1,6 @@
 <template>
   <div id="Work Experience">
-    <div class="sectionHeader p-2 mb-5 text-4xl text-center font-mono">
+    <div class="sectionHeader p-2 mb-5 text-4xl text-center font-mono invisible">
       <h1>Work Experience</h1>
     </div>
     <hr />
