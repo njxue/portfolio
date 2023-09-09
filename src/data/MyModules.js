@@ -27,10 +27,6 @@ const modules = [
       { code: "PC1201", title: "Fundamentals of Physics" },
       { code: "GEA1000", title: "Quantitative Reasoning with Data" },
       { code: "ES2660", title: "Communicating in the Information Age" },
-      {
-        code: "GEC1001",
-        title: "Chinese Music, Language and Literature (in English)",
-      },
     ],
   },
   {
@@ -60,11 +56,6 @@ const modules = [
         title: "Probability and Statistics",
         notes: "https://github.com/njxue/Notes/blob/main/ST2334_Cheatsheet.pdf",
       },
-      {
-        code: "GEX1007",
-        title: "Darwin and Evolution",
-        notes: "https://www.notion.so/GEX1007-ac4900bea3454947bdb2bfd123f4ea5e",
-      },
     ],
   },
   {
@@ -83,12 +74,17 @@ const modules = [
       {
         code: "CS2106",
         title: "Introduction to Operating Systems",
-        notes:
-          "https://github.com/njxue/Notes/blob/main/CS2106_Cheatsheet.pdf",
+        notes: "https://github.com/njxue/Notes/blob/main/CS2106_Cheatsheet.pdf",
       },
-      { code: "GESS1025", title: "Singapore: Imagining the Next 50 Years" },
-      { code: "CFG1002", title: "Career Catalyst" },
-      { code: "ALS1010", title: "Learning to Learn Better" },
+    ],
+  },
+  {
+    term: "Year 3 Semester 1",
+    modules: [
+      {
+        code: "CS3230",
+        title: "Design and Analysis of Algorithms",
+      },
     ],
   },
 ];
