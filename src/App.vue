@@ -8,6 +8,7 @@
       <WorkExperiences />
       <Projects />
       <Education />
+      <Others />
     </div>
   </div>
 
@@ -18,13 +19,11 @@
       viewBox="0 0 24 24"
       stroke-width="1.5"
       stroke="currentColor"
-      class="fixed bottom-10 right-10 w-6 h-6"
-    >
+      class="fixed bottom-10 right-10 w-6 h-6">
       <path
         stroke-linecap="round"
         stroke-linejoin="round"
-        d="M4.5 12.75l7.5-7.5 7.5 7.5m-15 6l7.5-7.5 7.5 7.5"
-      />
+        d="M4.5 12.75l7.5-7.5 7.5 7.5m-15 6l7.5-7.5 7.5 7.5" />
     </svg>
   </div>
 </template>
@@ -35,6 +34,7 @@ import Projects from "./components/projects/Projects.vue";
 import Introduction from "./components/introduction/Introduction.vue";
 import Education from "./components/coursework/Coursework.vue";
 import WorkExperiences from "./components/work/WorkExperiences.vue";
+import Others from "./components/others/Others.vue";
 
 document.addEventListener("DOMContentLoaded", function () {
   const observerCallback = function (entries, observer) {
@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const observer = new IntersectionObserver(observerCallback);
 
   document
-    .querySelectorAll(".project, .experience, .sectionHeader")
+    .querySelectorAll(".project, .experience, .sectionHeader, .other")
     .forEach((elem) => {
       if (elem) {
         observer.observe(elem);
@@ -69,6 +69,7 @@ export default {
     Introduction,
     Projects,
     Education,
+    Others,
   },
   mounted() {
     window.onscroll = this.handleScroll;
