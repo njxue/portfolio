@@ -1,8 +1,9 @@
 <template>
-  <div class="py-[50px] mb-10 border-solid bg-slate-100 font-mono">
+  <div
+    id="test"
+    class="py-[50px] border-solid bg-slate-100 font-mono dark:bg-gray-900 dark:text-white">
     <div
-      class="px-10 max-w-[1000px] m-auto flex justify-center flex-wrap-reverse gap-7 items-center"
-    >
+      class="px-10 max-w-[1000px] m-auto flex justify-center flex-wrap-reverse gap-7 items-center">
       <div class="introText basis-1/2 grow">
         <div>
           <div class="text-4xl font-bold" id="greeting"></div>
@@ -20,13 +21,11 @@
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="w-6 h-6 text-slate-500"
-              >
+                class="w-6 h-6 text-slate-500">
                 <path
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"
-                />
+                  d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
               </svg>
               <p class="text-slate-500">Resume</p>
             </div></a
@@ -48,6 +47,7 @@ export default {
   data() {
     return { Myself };
   },
+
   components: { SocialsIcons },
 };
 window.onload = () => {
@@ -74,5 +74,4 @@ img {
   width: 250px;
   animation: 1s ease-out 0s 1 fadeInAndSlideLeft !important;
 }
-
 </style>

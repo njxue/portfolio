@@ -1,5 +1,6 @@
 <template>
-  <div class="project p-5 border-gray shadow-md border invisible">
+  <div
+    class="mt-10 project p-5 border-gray shadow-lg border rounded-lg invisible dark:bg-cyan-950 dark:border-gray-600">
     <div class="py-5 flex justify-start gap-5 items-center">
       <img v-if="proj.logo" class="w-12" :src="`/icons/${proj.logo}`" />
       <h1 class="text-3xl">{{ proj.name }}</h1>
@@ -13,13 +14,11 @@
         </div>
         <div class="h-[100px]"></div>
         <div
-          class="flex w-full justify-between flex-wrap gap-3 absolute bottom-0"
-        >
+          class="flex w-full justify-between flex-wrap gap-3 absolute bottom-0">
           <TechIcons :techs="proj.techs" />
           <ProjectLinks
             :githubLink="proj.githubLink"
-            :productLink="proj.productLink"
-          />
+            :productLink="proj.productLink" />
         </div>
       </div>
       <img class="w-[400px] grow" :src="`/images/${proj.img}`" />

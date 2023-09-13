@@ -14,7 +14,9 @@
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.4",
     "bootstrap-vue": "^2.23.1",
-    "vue": "^3.2.47"
+    "oh-vue-icons": "^1.0.0-rc3",
+    "vue": "^3.2.47",
+    "vuetify": "^3.3.15"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.4",

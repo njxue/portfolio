@@ -1,10 +1,13 @@
 <template>
-  <div class="experience p-5 border-gray shadow-md border invisible">
+  <div
+    class="experience p-5 border-gray shadow-lg border rounded-lg invisible dark:bg-cyan-950 dark:border-gray-600">
     <div class="py-5 text-2xl flex justify-start items-center gap-3">
       <img class="w-20" :src="experience.logo" />
       <div>
         <span>{{ experience.role }} @ </span>
-        <span class="text-blue-900"> {{ experience.name }}</span>
+        <span class="text-blue-900 dark:text-teal-500">
+          {{ experience.name }}</span
+        >
         <p class="text-lg">
           {{ experience.startDate }} - {{ experience.endDate }}
         </p>

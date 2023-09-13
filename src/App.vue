@@ -3,8 +3,8 @@
   <div class="mt-[70px]">
     <Introduction />
   </div>
-  <div class="content flex justify-center">
-    <div class="w-[1200px] space-y-7">
+  <div class="content flex justify-center dark:bg-[#001e38] dark:text-white">
+    <div class="w-[1200px] pt-10 space-y-7">
       <WorkExperiences />
       <Projects />
       <Education />
@@ -73,6 +73,13 @@ export default {
   },
   mounted() {
     window.onscroll = this.handleScroll;
+    const html = document.getElementById("app");
+    const isDarkMode = localStorage.getItem("theme") === "dark";
+    if (isDarkMode) {
+      html.classList.add("dark");
+    } else {
+      html.classList.remove("dark");
+    }
   },
   data() {
     return { jumpTop: false };

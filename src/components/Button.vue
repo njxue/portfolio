@@ -3,19 +3,16 @@
     <div class="flex items-center gap-2">
       <img
         v-if="text === 'Work Experience'"
-        class="w-5 h-5"
-        src="/icons/briefcase.gif"
-      />
+        class="w-5 h-5 dark:hidden"
+        src="/icons/briefcase.gif" />
       <img
         v-else-if="text === 'Projects'"
-        class="w-5 h-5"
-        src="/icons/coding.gif"
-      />
+        class="w-5 h-5 dark:hidden"
+        src="/icons/coding.gif" />
       <img
         v-else-if="text === 'Coursework'"
-        class="w-5 h-5"
-        src="/icons/book.gif"
-      />
+        class="w-5 h-5 dark:hidden"
+        src="/icons/book.gif" />
       <p v-if="isScreenWidthAbove520">{{ text }}</p>
     </div>
   </a>
