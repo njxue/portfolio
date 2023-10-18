@@ -12,12 +12,12 @@ const Others = [
   },
   {
     id: "photography",
-    title: "I capture tingz",
+    title: "A photogenic doge",
     description:
       "<p><i>Why did the programmer bring a camera to the coding competition? To shoot the bugs!</i></p>" +
       "<br />" +
       "<p>I've recently picked up photography as a hobby, with a particular interest in street and architectural photography. " +
-      "Every now and then, I like to stroll around Singapore, with my trusty Nikon D3100 in hand, capturing interesting sights " +
+      "Every now and then, I like to stroll around Singapore with my trusty Nikon D3100, capturing interesting sights " +
       "along the way.</p>" +
       "<br />" +
       "<p>You can checkout my snaps over at <u><b><a href='https://www.instagram.com/photogenicafdoge/'>@photogenicafdoge</a></b></u>!</p>",
