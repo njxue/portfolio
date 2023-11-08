@@ -34,7 +34,11 @@ const html = document.getElementById("app");
 
 const toggleTheme = () => {
   const currTheme = localStorage.getItem("theme");
-  if (!currTheme || currTheme === "dark") {
+  if (!currTheme) {
+    localStorage.setItem("theme", "light");
+    html.classList.add("dark");
+  }
+  if (currTheme === "dark") {
     localStorage.setItem("theme", "light");
     html.classList.remove("dark");
   } else {
@@ -52,7 +56,7 @@ export default {
   mounted() {
     const currTheme = localStorage.getItem("theme");
     const switchElement = document.getElementById("toggleThemeCheckbox");
-    switchElement.checked = currTheme === "light";
+    switchElement.checked = currTheme == null || currTheme === "light";
   },
   methods: { toggleTheme },
 };
