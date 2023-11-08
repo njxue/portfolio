@@ -9,10 +9,10 @@ const WorkExperiences = [
       "specialised in procurement and distribution of cement products, fertilizer, oils & fats, consumer products, " +
       "oleochemicals and green energy.",
     deliverables: [
-      "Improved the frontend system to streamline business procedures, including enhancing the generation of accounting reports",
-      "Implemented robust backend solutions to automate critical business procedures, enhancing operational efficiency.",
-      "Successfully resolved software issues through thorough bug fixing and troubleshooting.",
-      "Contributed to the seamless operations of the company's accounting department, directly impacting financial transactions involving significant monetary values.",
+      "Streamlined critical business procedures such as Accounting and Order Confirmation via automation, increasing operational efficiency",
+      "Revamped and enhanced existing codebase through extensive refactoring, resulting in remarkable performance boost of up to 300%",
+      "Enhanced the user interface and user experience of a corporate portal, benefiting over 2,000 employees",
+      "Acquired exposure to Agile development methodologies by engaging with end-users and requirements gathering"
     ],
     techs: ["react", "csharp", "php", "javascript", "mysql", "oracle"],
     logo: "/images/kpnLogo.png",
