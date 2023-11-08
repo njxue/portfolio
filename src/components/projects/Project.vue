@@ -1,11 +1,11 @@
 <template>
   <div
-    class="mt-10 project p-5 border-gray shadow-lg border rounded-lg invisible dark:bg-cyan-950 dark:border-gray-600">
-    <div class="py-5 flex justify-start gap-5 items-center">
+    class="mt-10 project p-5 border-gray shadow-lg border rounded-lg invisible dark:bg-[#212121] dark:border-[#212121]">
+    <div class="pb-5 flex justify-start gap-5 items-center">
       <img v-if="proj.logo" class="w-12" :src="`/icons/${proj.logo}`" />
       <h1 class="text-3xl">{{ proj.name }}</h1>
     </div>
-    <hr />
+    <hr class="dark:border-[#3d3d3d]" />
     <div class="flex flex-wrap-reverse items-center justify-center gap-5">
       <div class="relative basis-1/2 grow self-stretch">
         <div class="my-3">

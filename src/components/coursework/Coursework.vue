@@ -14,7 +14,7 @@
       </tr>
     </thead>
     <tbody v-for="term in MyModules">
-      <tr class="bg-slate-200 font-bold dark:bg-teal-900">
+      <tr class="bg-slate-200 font-bold dark:bg-[#3d3d3d]">
         <td colspan="3">
           {{ term.term }}
         </td>

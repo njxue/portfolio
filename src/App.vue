@@ -3,7 +3,7 @@
   <div class="mt-[70px]">
     <Introduction />
   </div>
-  <div class="content flex justify-center dark:bg-[#001e38] dark:text-white">
+  <div class="content flex justify-center dark:bg-[#121212] dark:text-white">
     <div class="w-[1200px] pt-10 space-y-7">
       <WorkExperiences />
       <Projects />
@@ -15,15 +15,13 @@
   <div v-if="jumpTop" @click="handleClick" class="hover:cursor-pointer">
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke-width="1.5"
-      stroke="currentColor"
-      class="fixed bottom-10 right-10 w-6 h-6">
+      width="16"
+      height="16"
+      fill="gray"
+      class="bi bi-arrow-up-circle-fill fixed bottom-10 right-10 w-6 h-6"
+      viewBox="0 0 16 16">
       <path
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        d="M4.5 12.75l7.5-7.5 7.5 7.5m-15 6l7.5-7.5 7.5 7.5" />
+        d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
     </svg>
   </div>
 </template>

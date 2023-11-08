@@ -1,7 +1,6 @@
 <template>
   <div
-    id="test"
-    class="py-[50px] border-solid bg-slate-100 font-mono dark:bg-gray-900 dark:text-white">
+    class="py-[50px] border-solid bg-slate-100 font-mono dark:bg-[#b3b3b3] dark:text-black">
     <div
       class="px-10 max-w-[1000px] m-auto flex justify-center flex-wrap-reverse gap-7 items-center">
       <div class="introText basis-1/2 grow">

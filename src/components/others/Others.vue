@@ -6,15 +6,15 @@
     </div>
     <hr />
     <div
-      class="other flex flex-row flex-wrap justify-stretch gap-3 p-2 invisible">
+      class="other flex flex-row flex-wrap justify-stretch gap-3 invisible mt-7">
       <div
-        class="p-5 flex-1 min-w-[250px] border-gray shadow-lg border rounded dark:bg-cyan-950 dark:border-gray-600"
+        class="p-5 flex-1 min-w-[250px] border-gray shadow-lg border rounded dark:bg-[#212121] dark:border-[#212121]"
         v-for="others in Others">
         <div class="mb-2 flex justify-start gap-5 items-center">
           <img v-if="others.icon" class="w-12" :src="`/icons/${others.icon}`" />
           <h1 class="text-2xl mb-2">{{ others.title }}</h1>
         </div>
-        <hr />
+        <hr class="dark:border-[#3d3d3d]" />
         <div class="mt-2" :id="others.id"></div>
       </div>
     </div>
