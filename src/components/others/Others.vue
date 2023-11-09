@@ -8,7 +8,7 @@
     <div
       class="other flex flex-row flex-wrap justify-stretch gap-3 invisible mt-7">
       <div
-        class="p-5 flex-1 min-w-[250px] border-gray shadow-lg border rounded dark:bg-[#212121] dark:border-[#212121]"
+        class="p-5 flex-1 min-w-[250px] border-gray shadow-lg border rounded dark:bg-[#252525] dark:border-[#252525]"
         v-for="others in Others">
         <div class="mb-2 flex justify-start gap-5 items-center">
           <img v-if="others.icon" class="w-12" :src="`/icons/${others.icon}`" />

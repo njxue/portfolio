@@ -1,6 +1,6 @@
 <template>
   <div
-    class="experience p-5 border-gray shadow-lg border rounded-lg invisible dark:bg-[#212121] dark:border-[#212121]">
+    class="experience p-5 border-gray shadow-lg border rounded-lg invisible dark:bg-[#252525] dark:border-[#252525]">
     <div class="pb-5 text-2xl flex justify-start items-center gap-3">
       <img class="w-20" :src="experience.logo" />
       <div>

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="mt-10 project p-5 border-gray shadow-lg border rounded-lg invisible dark:bg-[#212121] dark:border-[#212121]">
+    class="mt-10 project p-5 border-gray shadow-lg border rounded-lg invisible dark:bg-[#252525] dark:border-[#252525]">
     <div class="pb-5 flex justify-start gap-5 items-center">
       <img v-if="proj.logo" class="w-12" :src="`/icons/${proj.logo}`" />
       <h1 class="text-3xl">{{ proj.name }}</h1>
