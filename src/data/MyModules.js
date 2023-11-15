@@ -84,6 +84,7 @@ const modules = [
       {
         code: "CS3230",
         title: "Design and Analysis of Algorithms",
+        notes: "https://github.com/njxue/Notes/blob/main/CS3230_Cheatsheet.pdf"
       },
     ],
   },
