@@ -3,7 +3,7 @@ const WorkExperiences = [
     name: "Aastar Trading Pte Ltd @ KPN Corp",
     role: "Software Developer Intern",
     startDate: "May 2023",
-    endDate: "Present",
+    endDate: "Nov 2023",
     companyDescription:
       "Aastar Trading is an international trading company based in Singapore, " +
       "specialised in procurement and distribution of cement products, fertilizer, oils & fats, consumer products, " +
