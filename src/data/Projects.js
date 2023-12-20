@@ -1,5 +1,32 @@
 const Projects = [
   {
+    name: "Photoasis",
+    img: "photoasis.png",
+    start: "November 2023",
+    end: "Present",
+    about: {
+      motivation:
+        "Many amateur photographers, like me, want to learn how to take better pictures. Aperture, shutter speed and ISO - which all together form the 'exposure triangle' " +
+        "are crucial in capturing good photographs. Personally, seeing the photopraphs I've taken along side the exposure triangle at which they are taken has " +
+        "helped me gain a better intuition on how to take better photographs!",
+      description:
+        "Photoasis is an online photo gallery platform where users can group their photos into albums along side their EXIF data (e.g. exposure triangle) which can be " +
+        "directly extracted from their photos!",
+    },
+
+    techs: [
+      "next",
+      "tailwind",
+      "postgresql",
+      "prisma",
+      "backblaze",
+      "cloudflare-workers",
+    ],
+    githubLink: "https://github.com/njxue/photoasis",
+    productLink: "https://photoasis.vercel.app",
+    logo: "photoasisLogo.png",
+  },
+  {
     name: "Odo.t",
     img: "odot.png",
     start: "August 2022",
@@ -18,14 +45,7 @@ const Projects = [
         "and marking certain tasks as important.",
     },
 
-    techs: [
-      "react",
-      "firebase",
-      "typescript",
-      "html",
-      "css",
-      "chakraui",
-    ],
+    techs: ["react", "firebase", "typescript", "html", "css", "chakraui"],
     githubLink: "https://github.com/njxue/odot",
     productLink: "https://odot.vercel.app",
     logo: "odotLogo.png",
@@ -41,17 +61,10 @@ const Projects = [
         "An online forum that caters to NUS students. It is a platform for students to engage in online " +
         "discussions, search and form groups, and facilitate group project planning by managing deadlines and work assignment.",
     },
-    techs: [
-      "react",
-      "firebase",
-      "javascript",
-      "html",
-      "css",
-      "chakraui",
-    ],
+    techs: ["react", "firebase", "javascript", "html", "css", "chakraui"],
     githubLink: "https://github.com/njxue/frenergy",
     productLink: "https://frenergy.vercel.app",
-    logo: "frenergylogo.png"
+    logo: "frenergylogo.png",
   },
   {
     name: "TA-Assist",
