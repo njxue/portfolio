@@ -12,7 +12,7 @@
         <div class="mt-10 flex gap-x-4">
           <SocialsIcons :socials="Myself.socials" />
           <a
-            href="https://github.com/njxue/Resume/blob/main/NgJingXue_Resume.pdf"
+            href="https://github.com/njxue/Resume/blob/main/Resume.pdf"
             ><div class="flex gap-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
