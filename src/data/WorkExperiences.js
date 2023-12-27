@@ -10,7 +10,7 @@ const WorkExperiences = [
       "oleochemicals and green energy.",
     deliverables: [
       "Streamlined critical business procedures such as Accounting and Order Confirmation via automation, increasing operational efficiency",
-      "Revamped and enhanced existing codebase through extensive refactoring, resulting in remarkable performance boost of up to 300%",
+      "Revamped and enhanced existing codebase through extensive refactoring, resulting in remarkable performance boost of up to 200%",
       "Enhanced the user interface and user experience of a corporate portal, benefiting over 2,000 employees",
       "Acquired exposure to Agile development methodologies by engaging with end-users and requirements gathering"
     ],
