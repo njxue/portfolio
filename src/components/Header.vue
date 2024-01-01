@@ -1,6 +1,6 @@
 <template>
   <header
-    class="p-5 border-b-2 border-teal-900 z-50 dark:bg-[#121212] dark:text-white dark:border-white">
+    class="p-5 border-b-2 border-teal-900 z-50 bg-white dark:bg-[#121212] dark:text-white dark:border-white">
     <div class="flex gap-5">
       <h1 class="text-xl">Jing Xue</h1>
       <div id="toggleTheme" class="toggleTheme">
