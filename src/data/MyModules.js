@@ -84,7 +84,32 @@ const modules = [
       {
         code: "CS3230",
         title: "Design and Analysis of Algorithms",
-        notes: "https://github.com/njxue/Notes/blob/main/CS3230_Cheatsheet.pdf"
+        notes: "https://github.com/njxue/Notes/blob/main/CS3230_Cheatsheet.pdf",
+      },
+      {
+        code: "CP3880",
+        title: "Advanced Technology Attachment Programme (Internship)",
+      },
+    ],
+  },
+  {
+    term: "Year 3 Semester 2",
+    modules: [
+      {
+        code: "CS2109S",
+        title: "Introduction to AI and Machine Learning",
+      },
+      {
+        code: "CS3223",
+        title: "Database Systems Implementation",
+      },
+      {
+        code: "CS4225",
+        title: "Big Data Systems for Data Science",
+      },
+      {
+        code: "ACC1701X",
+        title: "Accounting for Decision Makers",
       },
     ],
   },
