@@ -24,7 +24,6 @@ const Projects = [
     ],
     githubLink: "https://github.com/njxue/photoasis",
     productLink: "https://photoasis.vercel.app",
-    logo: "photoasisLogo.png",
   },
   {
     name: "Odo.t",
