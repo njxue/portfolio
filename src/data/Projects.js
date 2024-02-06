@@ -5,13 +5,12 @@ const Projects = [
     start: "November 2023",
     end: "Present",
     about: {
-      motivation:
-        "Many amateur photographers, like me, want to learn how to take better pictures. Aperture, shutter speed and ISO - which all together form the 'exposure triangle' " +
-        "are crucial in capturing good photographs. Personally, seeing the photopraphs I've taken along side the exposure triangle at which they are taken has " +
-        "helped me gain a better intuition on how to take better photographs!",
-      description:
-        "Photoasis is an online photo gallery platform where users can group their photos into albums along side their EXIF data (e.g. exposure triangle) which can be " +
-        "directly extracted from their photos!",
+      description: 
+      `
+      Photoasis is an online photo gallery that allows you to upload your photos along its EXIF data (it's camera settings, such as ISO and Aperture values). 
+      As an amateur photographer (more of a hobbyist, really), analyzing and comparing my photos to their camera settings has enabled me to improve my skills in properly exposing photos 
+      and capture better shots. Hence, I designed Photoasis as a platform document my growth in photography as well as a place to archive my most precious moments in life.
+      `
     },
 
     techs: [
