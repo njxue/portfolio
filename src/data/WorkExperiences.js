@@ -5,9 +5,10 @@ const WorkExperiences = [
     startDate: "May 2023",
     endDate: "Nov 2023",
     companyDescription:
-      "Aastar Trading is an international trading company based in Singapore, " +
-      "specialised in procurement and distribution of cement products, fertilizer, oils & fats, consumer products, " +
-      "oleochemicals and green energy.",
+      `
+      Aastar Trading is an international trading company based in Singapore, specialised in procurement and distribution of cement products, fertilizer, oils & fats, consumer products, 
+      oleochemicals and green energy.
+      `,
     deliverables: [
       "Streamlined critical business procedures such as Accounting and Order Confirmation via automation, increasing operational efficiency",
       "Revamped and enhanced existing codebase through extensive refactoring, resulting in remarkable performance boost of up to 200%",
