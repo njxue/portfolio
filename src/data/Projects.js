@@ -7,9 +7,9 @@ const Projects = [
     about: {
       description: 
       `
-        Photoasis is an online photo gallery that allows you to upload your photos along its EXIF data (it's camera settings, such as ISO and Aperture values). 
-        As an amateur photographer (more of a hobbyist, really), analyzing and comparing my photos to their camera settings has enabled me to improve my skills in properly exposing photos 
-        and capture better shots. Hence, I designed Photoasis as a platform document my growth in photography as well as a place to archive my most precious moments in life.
+        Photoasis is an online photo gallery that allows you to upload your photos along with their EXIF data (camera settings, such as ISO and Aperture values). 
+        Photography is my hoppe, and analyzing and comparing my photos with their camera settings has enabled me to improve my skills in properly exposing photos 
+        and capturing better shots. Hence, I designed Photoasis as a platform to document my growth in photography as well as a place to archive my most precious moments in life.
       `
     },
 
