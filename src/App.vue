@@ -4,7 +4,7 @@
     <Introduction />
   </div>
   <div class="content flex justify-center dark:bg-[#121212] dark:text-white">
-    <div class="w-[1200px] pt-10 space-y-7">
+    <div class="w-[1200px] py-10 space-y-7">
       <WorkExperiences />
       <Projects />
       <Education />
