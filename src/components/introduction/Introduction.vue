@@ -13,6 +13,8 @@
           <SocialsIcons :socials="Myself.socials" />
           <a
             href="https://github.com/njxue/Resume/blob/main/Resume.pdf"
+            target="_blank"
+            rel="noreferrer"
             ><div class="flex gap-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

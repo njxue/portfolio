@@ -24,7 +24,7 @@ const Others = [
       Every now and then, I like to stroll around Singapore with my trusty Nikon D3100, capturing interesting sights along the way.
       </p>
       <br />
-      <p>You can checkout my snaps over at <u><b><a href='https://www.instagram.com/photogenicafdoge/'>@photogenicafdoge</a></b></u>!</p>
+      <p>You can checkout my snaps over at <u><b><a href="https://www.instagram.com/photogenicafdoge/" target="_blank" rel="noreferrer">@photogenicafdoge</a></b></u>!</p>
     `
   },
 ];
