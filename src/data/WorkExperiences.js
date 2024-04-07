@@ -15,7 +15,7 @@ const WorkExperiences = [
       "Enhanced the user interface and user experience of a corporate portal, benefiting over 2,000 employees",
       "Initiated and led the development of detailed code documentation, facilitating the integration of future interns into the codebase"
     ],
-    techs: ["react", "csharp", "php", "javascript", "mysql", "oracle"],
+    techs: ["react", "csharp", "javascript", "mysql"],
     logo: "/images/kpnLogo.png",
   },
 ];
