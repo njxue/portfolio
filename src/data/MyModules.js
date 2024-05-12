@@ -102,10 +102,12 @@ const modules = [
       {
         code: "CS3223",
         title: "Database Systems Implementation",
+        notes: "https://github.com/njxue/Notes/blob/main/CS3223_Cheatsheet.pdf",
       },
       {
         code: "CS4225",
         title: "Big Data Systems for Data Science",
+        notes: "https://github.com/njxue/Notes/blob/main/CS4225_Cheatsheet.pdf",
       },
       {
         code: "ACC1701X",
