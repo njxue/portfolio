@@ -1,20 +1,20 @@
 <template>
   <header
     class="p-5 border-b-2 border-teal-900 z-50 bg-white dark:bg-[#121212] dark:text-white dark:border-white">
-    <div class="flex gap-5">
+    <div class="flex items-center gap-5">
       <h1 class="text-xl">Jing Xue</h1>
-      <div id="toggleTheme" class="toggleTheme">
-        <input
-          type="checkbox"
-          id="toggleThemeCheckbox"
-          class="toggleThemeCheckbox"
-          :onclick="toggleTheme" />
-        <label for="toggleThemeCheckbox" class="toggleThemeLabel">
-          <v-icon name="md-wbsunny-round" />
-          <v-icon name="io-moon" />
-        </label>
-      </div>
+      <v-icon
+        v-if="!isDarkMode"
+        name="md-wbsunny-round"
+        :onclick="toggleTheme"
+        class="toggleTheme" />
+      <v-icon
+        v-if="isDarkMode"
+        name="io-moon"
+        :onclick="toggleTheme"
+        class="toggleTheme" />
     </div>
+
     <div class="flex space-x-4">
       <Button text="Work Experience" />
       <Button text="Projects" />
@@ -32,7 +32,7 @@ addIcons(MdWbsunnyRound, IoMoon);
 
 const html = document.getElementById("app");
 
-const toggleTheme = () => {
+function toggleTheme() {
   const currTheme = localStorage.getItem("theme");
   if (!currTheme) {
     localStorage.setItem("theme", "light");
@@ -45,7 +45,9 @@ const toggleTheme = () => {
     localStorage.setItem("theme", "dark");
     html.classList.add("dark");
   }
-};
+
+  this.isDarkMode = localStorage.getItem("theme") === "dark";
+}
 
 export default {
   name: "Header",
@@ -53,12 +55,12 @@ export default {
     Button,
     "v-icon": OhVueIcon,
   },
-  mounted() {
-    const currTheme = localStorage.getItem("theme");
-    const switchElement = document.getElementById("toggleThemeCheckbox");
-    switchElement.checked = currTheme == null || currTheme === "light";
-  },
   methods: { toggleTheme },
+  data() {
+    return {
+      isDarkMode: localStorage.getItem("theme") === "dark",
+    };
+  },
 };
 </script>
 
@@ -73,46 +75,6 @@ header {
   top: 0;
 }
 .toggleTheme {
-  display: inline-block;
-  width: 70px;
-  height: 30px;
-  background-color: #00534b;
-  border-radius: 40px;
-  position: relative;
-  overflow: hidden;
-}
-
-.toggleTheme input[type="checkbox"] {
-  display: none;
-}
-
-.toggleThemeLabel {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  color: white;
   cursor: pointer;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.toggleThemeLabel:before {
-  content: "";
-  display: block;
-  width: 50%;
-  height: 100%;
-  background-color: rgb(141, 209, 216);
-  border-radius: 34px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: all 0.25s ease-in-out;
-}
-
-.toggleThemeCheckbox:checked + .toggleThemeLabel:before {
-  transform: translateX(35px);
 }
 </style>
