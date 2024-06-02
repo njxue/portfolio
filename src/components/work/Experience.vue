@@ -15,10 +15,11 @@
     </div>
     <hr class="dark:border-[#3d3d3d]" />
     <div class="my-3">{{ experience.companyDescription }}</div>
-    <ul></ul>
-    <li class="my-2" v-for="deliverable in experience.deliverables">
-      {{ deliverable }}
-    </li>
+    <ul class="list-disc list-outside pl-4">
+      <li class="my-2" v-for="deliverable in experience.deliverables">
+        {{ deliverable }}
+      </li>
+    </ul>
     <div class="h-[20px]"></div>
     <div class="bottom-0"><TechIcons :techs="experience.techs" /></div>
   </div>
