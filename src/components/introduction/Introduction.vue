@@ -5,9 +5,9 @@
       class="px-10 max-w-[1000px] m-auto flex justify-center flex-wrap-reverse gap-7 items-center">
       <div class="introText basis-1/2 grow">
         <div>
-          <div class="text-4xl font-bold" id="greeting"></div>
-          <div class="text-2xl mt-3" id="large"></div>
-          <div class="text-xl mt-10" id="small"></div>
+          <p class="text-4xl font-bold">Hi there! <span>&#128075</span> I'm Jing Xue,</p>
+          <p class="text-2xl mt-3" >A <b>Year 3 Computer Science</b> undergraduate from the <b>National University of Singapore</b></p>
+          <p class="text-xl mt-10">I'm an aspiring software developer who loves coding, coffee and corgis!</p>
         </div>
         <div class="mt-10 flex gap-x-4">
           <SocialsIcons :socials="Myself.socials" />
@@ -51,11 +51,7 @@ export default {
 
   components: { SocialsIcons },
 };
-window.onload = () => {
-  document.getElementById("greeting").innerHTML = Myself.greeting;
-  document.getElementById("large").innerHTML = Myself.large;
-  document.getElementById("small").innerHTML = Myself.small;
-};
+ 
 </script>
 
 <style scoped>
