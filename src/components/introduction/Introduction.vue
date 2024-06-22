@@ -6,7 +6,7 @@
       <div class="introText basis-1/2 grow">
         <div>
           <p class="text-4xl font-bold">Hi there! <span>&#128075</span> I'm Jing Xue,</p>
-          <p class="text-2xl mt-3" >A <b>Year 3 Computer Science</b> undergraduate from the <b>National University of Singapore</b></p>
+          <p class="text-2xl mt-3" >A <b>Final Year Computer Science</b> undergraduate from the <b>National University of Singapore</b></p>
           <p class="text-xl mt-10">I'm an aspiring software developer who loves coding, coffee and corgis!</p>
         </div>
         <div class="mt-10 flex gap-x-4">
