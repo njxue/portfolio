@@ -5,10 +5,10 @@
       <img class="w-20 rounded-full" :src="experience.logo" />
       <div>
         <p>{{ experience.role }}</p>
-        <p class="text-sm text-blue-900 dark:text-red-600">
+        <p class="text-base text-blue-900 dark:text-teal-500">
           {{ experience.name }}
         </p>
-        <p class="text-lg">
+        <p class="text-sm">
           {{ experience.startDate }} - {{ experience.endDate }}
         </p>
       </div>
