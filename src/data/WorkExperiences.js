@@ -5,8 +5,8 @@ const WorkExperiences = [
     startDate: "Jun 2024",
     endDate: "Present",
     deliverables: [
-      "Implemented core frontend features for Nas.io, a community building platform, using Next.js to significantly enhance user experience.",
-      "Integrated PostHog with Next.js to systematically collect and analyze web performance metrics, including network performance and core web vitals, delivering key insights for improving SEO.",
+      "Implemented core frontend features for Nas.io, a community building platform, using Next.js to significantly enhance user experience",
+      "Integrated PostHog with Next.js to systematically collect and analyze web performance metrics, including network performance and core web vitals, delivering key insights for improving SEO",
     ],
     techs: ["next", "tailwind", "posthog"],
     logo: "/images/nasLogo.jfif",
