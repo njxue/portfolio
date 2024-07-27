@@ -1,3 +1,8 @@
+import { TECHS } from "../utils/contants";
+
+const { NEXT, REACT, TAILWIND, MYSQL, JAVASCRIPT, ORACLE_DB, CSHARP, POSTHOG } =
+  TECHS;
+
 const WorkExperiences = [
   {
     name: "Nas Company",
@@ -8,7 +13,7 @@ const WorkExperiences = [
       "Implemented core frontend features for Nas.io, a community building platform, using Next.js to significantly enhance user experience",
       "Integrated PostHog with Next.js to systematically collect and analyze web performance metrics, including network performance and core web vitals, delivering key insights for improving SEO",
     ],
-    techs: ["next", "tailwind", "posthog"],
+    techs: [NEXT, TAILWIND, POSTHOG],
     logo: "/images/nasLogo.jfif",
   },
   {
@@ -27,7 +32,7 @@ const WorkExperiences = [
       "Successfully migrated a vital and complex business procedure from the legacy business portal to the new one, resulting in remarkable performance boosts and significantly reducing manual labor",
       "Initiated and led the development of detailed code documentation, incorporating UML and sequence diagrams, to facilitate the integration of future developers into the codebase",
     ],
-    techs: ["react", "csharp", "javascript", "mysql"],
+    techs: [REACT, CSHARP, JAVASCRIPT, MYSQL, ORACLE_DB],
     logo: "/images/kpnLogo.png",
   },
 ];
